@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-09 07:14:05 --> Use of undefined constant gambar - assumed 'gambar' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\header.php on line 26.
+ 1 APPPATH\Views\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant gambar - assumed \'gambar\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\header.php', 26, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\web.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
