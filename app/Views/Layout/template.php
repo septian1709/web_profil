@@ -57,7 +57,7 @@
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Publikasi</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Buletin</a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('web/layanan')">Buletin</a></li>
                         <li><a class="dropdown-item" href="https://www.youtube.com/channel/UChOunbpZLEeppdisO9m8TFA">Youtube</a></li>
                     </ul>
                     </li>
