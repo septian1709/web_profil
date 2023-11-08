@@ -47,7 +47,7 @@
                         <li><a class="dropdown-item" href="#">Ketersediaan Data</a></li>
                         <li><a class="dropdown-item" href="#">Form Permohonan Data</a></li>
                         <li><a class="dropdown-item" href="#">Form Pengaduan Layanan</a></li>
-                        <li><a class="dropdown-item" href="https://eskm.bmkg.go.id/survey/437344/0/2/2023-06/2023/0">E-SKM BMKG</a></li>
+                        <li><a class="dropdown-item" href="https://eskm.bmkg.go.id/survey/437344/0/2/2023-11/2023/0">E-SKM BMKG</a></li>
                     </ul>
                     </li>
                     <li class="nav-item">
