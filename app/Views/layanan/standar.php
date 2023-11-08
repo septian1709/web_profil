@@ -14,13 +14,18 @@
     </div>
     <div class="card">
         <div class="card-header">
-            Kontak
+            Maklumat Pelayanan
         </div>
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">Email stageof.denpasar@bmkg.go.id</p>
-            <p class="card-text">WhatsApp 089524663695</p>
-            <p class="card-text">Telepon (0361) 226157</p>
+            <img src="<?php echo base_url('gambar/maklumat-pelayanan.jpg') ?>" alt="Maklumat Pelayanan" id="gbr-maklumat">
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Alur Pelayanan
+        </div>
+        <div class="card-body">
+            <img src="<?php echo base_url('gambar/alur pelayanan.jpg') ?>" alt="Alur Pelayanan" id="gbr-alur-pelayanan">
         </div>
     </div>
 </div>

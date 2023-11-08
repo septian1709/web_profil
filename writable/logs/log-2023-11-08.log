@@ -1,0 +1,11 @@
+CRITICAL - 2023-11-08 00:47:20 --> syntax error, unexpected '">Buletin</a></li>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\Layout\template.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('profil/sejarah', [], true)
+ 4 APPPATH\Controllers\web.php(15): view('profil/sejarah')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Web->sejarah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

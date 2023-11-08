@@ -52,3 +52,7 @@ html{
     background-color: #343f52;
     color: white;
 }
+
+#gbr-maklumat, #gbr-alur-pelayanan{
+    width: 50%;
+}
